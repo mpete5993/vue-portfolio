@@ -14,28 +14,55 @@
   </div>
 
   <div class="container-fluid">
-    <div class="row">
-      <div class="post_gallery owl-carousel owl-theme">
-        <div class="item">
-          <div class="portfolio-item position-relative">
-            <img src="/images/portfolio/3.jpg" alt="" class="img-fluid">
-            <div class="portoflio-item-overlay">
-              <a href="portfolio-single.html"><i class="ti-plus"></i></a>
-            </div>
-          </div>
-          <div class="text mt-3">
-            <h4 class="mb-1 text-capitalize">Web development</h4>
-            <p class="text-uppercase letter-spacing text-sm">wordpress</p>
-          </div>
-        </div>
+         <div class="row">
+
+    <!-- First Professional Image and Title -->
+    <div class="col-lg-4 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/2.jpg" alt="Profession 1">
+        <h5>
+          <RouterLink to="/stock">Title 1</RouterLink>
+        </h5>
       </div>
     </div>
+
+    <div class="col-lg-4 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/3.jpg" alt="Profession 1">
+        <h5>Title 1</h5>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/1.jpg" alt="Profession 1">
+        <h5>Title 1</h5>
+      </div>
+    </div>
+
+
+    <!-- Add more col-lg-4 or col-md-6 divs for additional professions -->
+
+  </div><!-- /.row -->
   </div>
 </section>
 </template>
 
 
 <script setup>
-
-  
+import { RouterLink, RouterView } from 'vue-router'
 </script>
+
+<style>
+    /* Optional custom styling */
+    .profession-box {
+      padding: 5.02.px;
+      margin-bottom: 20px;
+      background: #19273e;
+      border-radius: 0px;
+    }
+    .profession-box img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
