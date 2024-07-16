@@ -6,9 +6,9 @@
 
 <nav class="navbar navbar-expand-lg bg-transprent py-4 fixed-top navigation" id="navbar">
   <div class="container">
-    <a class="navbar-brand" href="">
+    <RouterLink class="navbar-brand" to="/">
       <h2 class="logo">Mpete.</h2>
-    </a>
+    </RouterLink>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
     <span class="ti-view-list"></span>
     </button>
@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse text-center" id="navbarsExample09">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-        <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+        <RouterLink class="nav-link" to="/">Home <span class="sr-only">(current)</span></RouterLink>
         </li>
          <li class="nav-item"><a class="nav-link smoth-scroll" href="#about">About</a></li>
          <li class="nav-item"><a class="nav-link smoth-scroll" href="#skillbar">Expertise</a></li>

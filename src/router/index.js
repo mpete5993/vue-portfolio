@@ -1,6 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import HomeView from '../views/HomeView.vue'
-import StockPage from '../views/Stock.vue'
+import StockView from '../views/StockView.vue'
+import ShoppingPage from '../views/ShoppingView.vue'
+import BattleshipView from '../views/BattleshipView.vue'
+import ExpenseView from '../views/ExpenseView.vue'
+import WeatherView from '../views/WeatherView.vue'
+import InvoiceView from '../views/InvoiceView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +19,32 @@ const router = createRouter({
     {
       path: '/stock',
       name: 'stock',
-      component: StockPage
+      component: StockView
+    },
+    {
+      path: '/shopping',
+      name: 'shopping',
+      component: ShoppingPage
+    },
+    {
+      path: '/invoice',
+      name: 'invoice',
+      component: InvoiceView
+    },
+    {
+      path: '/battleship',
+      name: 'battleship',
+      component: BattleshipView
+    },
+    {
+      path: '/expense',
+      name: 'expense',
+      component: ExpenseView
+    },
+    {
+      path: '/weather',
+      name: 'weather',
+      component: WeatherView
     },
     {
       path: '/about',
