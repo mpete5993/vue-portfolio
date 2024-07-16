@@ -28,15 +28,29 @@
 
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/3.jpg" alt="Profession 1">
-        <h5>Title 1</h5>
+        <img src="./images/portfolio/6.jpg" alt="Profession 1">
+        <RouterLink to="/invoice">Title 1</RouterLink>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/1.jpg" alt="Profession 1">
-        <h5>Title 1</h5>
+        <img src="./images/portfolio/12.jpg" alt="Profession 1">
+        <RouterLink to="/weather">Title 1</RouterLink>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/4.jpg" alt="Profession 1">
+        <RouterLink to="/shopping">Title 1</RouterLink>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/5.jpg" alt="Profession 1">
+        <RouterLink to="/battleship">Title 1</RouterLink>
       </div>
     </div>
 
