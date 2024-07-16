@@ -1,5 +1,3 @@
-
-
 <template>
   <section class="section" id="portfolio" data-aos="fade-up">
   <div class="container">
@@ -14,8 +12,7 @@
   </div>
 
   <div class="container-fluid">
-         <div class="row">
-
+    <div class="row">
     <!-- First Professional Image and Title -->
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
@@ -25,38 +22,31 @@
         </h5>
       </div>
     </div>
-
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/6.jpg" alt="Profession 1">
         <RouterLink to="/invoice">Title 1</RouterLink>
       </div>
     </div>
-
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/12.jpg" alt="Profession 1">
+        <img src="./images/portfolio/2.jpg" alt="Profession 1">
         <RouterLink to="/weather">Title 1</RouterLink>
       </div>
     </div>
-
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/4.jpg" alt="Profession 1">
         <RouterLink to="/shopping">Title 1</RouterLink>
       </div>
     </div>
-
     <div class="col-lg-4 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/5.jpg" alt="Profession 1">
         <RouterLink to="/battleship">Title 1</RouterLink>
       </div>
     </div>
-
-
     <!-- Add more col-lg-4 or col-md-6 divs for additional professions -->
-
   </div><!-- /.row -->
   </div>
 </section>
