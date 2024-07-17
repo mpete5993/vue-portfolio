@@ -35,31 +35,31 @@
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/invoice-App.png" alt="Profession 1">
         <RouterLink to="/invoice">Invoice App</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
-      <div class="profession-box text-left">
-        <img src="./images/portfolio/12.jpg" alt="Profession 1">
-        <RouterLink to="/weather">Title 1</RouterLink>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/expense-tracker.png" alt="Profession 1">
         <RouterLink to="/expense">Expense Tracker</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/recipe-app.jpg" alt="Profession 1">
         <RouterLink to="/recipe">Recipe App</RouterLink>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/weather-app.png" alt="Profession 1">
+        <RouterLink to="/weather">Weather App</RouterLink>
       </div>
     </div>
     <!-- Add more col-lg-4 or col-md-6 divs for additional professions -->
