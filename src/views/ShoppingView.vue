@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <img src="../components/images/portfolio/b8.jpg" alt="" class="img-fluid rounded">
+                <img src="../components/images/portfolio/vue-shopping-cart.png" alt="" class="img-fluid rounded">
 
                 <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p>
             </div>

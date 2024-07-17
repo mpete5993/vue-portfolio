@@ -17,40 +17,52 @@
          <div class="row">
 
     <!-- First Professional Image and Title -->
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/2.jpg" alt="Profession 1">
-        <h5>
-          <RouterLink to="/stock">Title 1</RouterLink>
-        </h5>
+        <img src="./images/portfolio/battleship.png" alt="Profession 1">
+          <RouterLink to="/battleship">Batttleship Game</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/6.jpg" alt="Profession 1">
-        <RouterLink to="/invoice">Title 1</RouterLink>
+        <img src="./images/portfolio/stock-management-system.png" alt="Profession 1">
+        <RouterLink to="/stock">Stock Management System</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/12.jpg" alt="Profession 1">
-        <RouterLink to="/weather">Title 1</RouterLink>
+        <img src="./images/portfolio/vue-shopping-cart.png" alt="Profession 1">
+        <RouterLink to="/shopping">Shopping Cart</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/4.jpg" alt="Profession 1">
-        <RouterLink to="/shopping">Title 1</RouterLink>
+        <img src="./images/portfolio/invoice-App.png" alt="Profession 1">
+        <RouterLink to="/invoice">Invoice App</RouterLink>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-6 bg-gra">
+    <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
-        <img src="./images/portfolio/5.jpg" alt="Profession 1">
-        <RouterLink to="/battleship">Title 1</RouterLink>
+        <img src="./images/portfolio/weather.jpg" alt="Profession 1">
+        <RouterLink to="/weather">Weather App</RouterLink>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/expense-tracker.png" alt="Profession 1">
+        <RouterLink to="/expense">Expense Tracker</RouterLink>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/recipe-app.jpg" alt="Profession 1">
+        <RouterLink to="/recipe">Recipe App</RouterLink>
       </div>
     </div>
 
@@ -70,13 +82,20 @@ import { RouterLink, RouterView } from 'vue-router'
 <style>
     /* Optional custom styling */
     .profession-box {
-      padding: 5.02.px;
+      padding: 5px;
       margin-bottom: 20px;
       background: #19273e;
       border-radius: 0px;
     }
     .profession-box img {
-      max-width: 100%;
-      height: auto;
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+      margin-bottom:10px;
+    }
+
+    .profession-box a {
+      color: #fff;
+      font-weight: bold;
     }
   </style>

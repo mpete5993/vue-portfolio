@@ -1,25 +1,24 @@
 <template>
-    <NavBar />
+<NavBar />
 
-	<section class="page-title">
-	  <div class="container">
-	    <div class="row justify-content-center">
-	      <div class="col-lg-8">
-	          <div class="page-title text-center">
-	             <p>Shopping Cart</p>
-	              <h1>Battleship Game</h1>
-	          </div>
-	      </div>
-	    </div>
-	  </div>
-	</section>
-
+<section class="page-title">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="page-title text-center">
+                    <p>Shopping Cart</p>
+                    <h1>Battleship Game</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="section portfolio-single pt-0">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <img src="../components/images/portfolio/b8.jpg" alt="" class="img-fluid rounded">
+                <img src="../components/images/portfolio/battleship.png" alt="" class="img-fluid rounded">
 
                 <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p>
             </div>
@@ -68,7 +67,7 @@
                                 <span>included</span>
                             </li>
                             <li class="text-right mt-4">
-                               <a href="#" class="btn btn-main">Demo</a>
+                                <a href="#" class="btn btn-main">Demo</a>
                             </li>
 
                         </ul>
@@ -76,15 +75,17 @@
 
                     <div class="card bg-gray p-5 mt-4">
                         <h3 class="text-center mb-4">Have any project on mind?</h3>
-                         <a href="#" class="btn btn-solid-border">Contact me</a>
+                        <a href="#" class="btn btn-solid-border">Contact me</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<FooterSec />
 </template>
 
-<script setup>
-	import NavBar from '../components/NavBar.vue'
+<script>
+import NavBar from '../components/NavBar.vue'
+import FooterSec from '../components/FooterSec.vue'
 </script>
