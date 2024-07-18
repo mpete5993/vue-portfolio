@@ -30,6 +30,18 @@
 
     <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
+        <img src="./images/portfolio/e-commerce.gif" alt="Profession 1">
+        <RouterLink to="/ecommerce">E-commerce Website</RouterLink>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 bg-gra">
+      <div class="profession-box text-left">
+        <img src="./images/portfolio/demo.png" alt="Profession 1">
+        <RouterLink to="/real-estate">Real Estate Website</RouterLink>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 bg-gra">
+      <div class="profession-box text-left">
         <img src="./images/portfolio/vue-shopping-cart.png" alt="Profession 1">
         <RouterLink to="/shopping">Shopping Cart</RouterLink>
       </div>
@@ -52,7 +64,7 @@
     <div class="col-lg-3 col-md-6 bg-gra">
       <div class="profession-box text-left">
         <img src="./images/portfolio/recipe-app.jpg" alt="Profession 1">
-        <RouterLink to="/recipe">Recipe App</RouterLink>
+        <RouterLink to="/recipes">Recipe App</RouterLink>
       </div>
     </div>
 

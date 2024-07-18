@@ -16,23 +16,9 @@
         <div class="row no-gutters">
             <div class="col-lg-4 col-md-6">
                 <div class="card p-5 rounded-0">
-                    <!-- <i class="ti-layers text-lg-2 text-muted"></i> -->
-                    <h3 class="my-4 text-capitalize">Graphics Branding Design</h3>
-                    <p>Graphic Design is an act of designing high quality visuals using a computer software.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card p-5 rounded-0">
                     <!-- <i class="ti-layout text-lg-2 text-muted"></i> -->
                     <h3 class="my-4 text-capitalize">Full stack <br> Development</h3>
                     <p>Is an act of developing high quality application for improving productive for businesses .</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card p-5 rounded-0">
-                    <!-- <i class="ti-stats-up text-lg-2 text-muted"></i> -->
-                    <h3 class="my-4 text-capitalize">Digital Content Marketing</h3>
-                    <p>Marketing refers to activities undertaken by a company to promote <br>the buying....</p>
                 </div>
             </div>
 
@@ -42,13 +28,6 @@
                     <!-- <img src="  " alt="" srcset="" width="55px" height="55px"> -->
                     <h3 class="my-4 text-capitalize">Search Engine <br> Optimization</h3>
                     <p>Search engine optimization is the process of improving the quality and quantity of website traffic..</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="card p-5 rounded-0">
-                    <!-- <i class="ti-camera text-lg-2 text-muted"></i> -->
-                    <h3 class="my-4 text-capitalize">Videography Photography</h3>
-                    <p>the practice of optimizing your content to appear higher within search <br> results</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">

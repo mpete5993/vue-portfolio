@@ -1,6 +1,5 @@
 <template>
 <NavBar />
-
 <section class="page-title">
     <div class="container">
         <div class="row justify-content-center">
@@ -57,10 +56,6 @@
                                 browser compatiable:
                                 <span>yes</span>
                             </li>
-                            <li class="d-flex justify-content-between align-content-center">
-                                Documentation:
-                                <span>included</span>
-                            </li>
                             <li class="text-right mt-4">
                                 <a href="https://mpete5993.github.io/battleship-Game/" target="_blank" class="btn btn-main">Demo</a>
                             </li>
@@ -80,7 +75,7 @@
 <FooterSec />
 </template>
 
-<script>
+<script setup>
 import NavBar from '../components/NavBar.vue'
 import FooterSec from '../components/FooterSec.vue'
 </script>

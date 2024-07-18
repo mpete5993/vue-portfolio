@@ -6,8 +6,8 @@
 	    <div class="row justify-content-center">
 	      <div class="col-lg-8">
 	          <div class="page-title text-center">
-	             <p>Stock Management</p>
-	              <h1>Ratsaan - Portfolio template</h1>
+	             <!-- <p>Stock Management</p> -->
+	              <h1>Stock Management system</h1>
 	          </div>
 	      </div>
 	    </div>
@@ -21,7 +21,7 @@
             <div class="col-lg-8">
                 <img src="../components/images/portfolio/stock-management-system.png" alt="" class="img-fluid rounded">
 
-                <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p>
+                <!-- <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p> -->
             </div>
 
             <div class="col-lg-4">
@@ -32,28 +32,24 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-content-center">
                                 Created:
-                                <span>15 april 2019</span>
+                                <span>15 april 2022</span>
                             </li>
-                            <li class="d-flex justify-content-between align-content-center">
+                            <!-- <li class="d-flex justify-content-between align-content-center">
                                 Budget:
                                 <span>180$</span>
-                            </li>
+                            </li> -->
 
                             <li class="d-flex justify-content-between align-content-center">
                                 Category:
                                 <span>Portfolio</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
-                                Client:
-                                <span>Themeforest</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-content-center">
                                 Duration:
                                 <span>2 weeks</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
-                                Framework:
-                                <span>Bootstrap4</span>
+                                Language:
+                                <span>HTML, CSS3 & TYPESCRIPT</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
                                 Responsive:
@@ -63,12 +59,8 @@
                                 browser compatiable:
                                 <span>yes</span>
                             </li>
-                            <li class="d-flex justify-content-between align-content-center">
-                                Documentation:
-                                <span>included</span>
-                            </li>
                             <li class="text-right mt-4">
-                               <a href="#" class="btn btn-main">Demo</a>
+                               <a href="https://mpete5993.github.io/Stock-Management-System/" target="_blank" class="btn btn-main">Demo</a>
                             </li>
 
                         </ul>

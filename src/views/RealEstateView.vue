@@ -1,24 +1,27 @@
 <template>
-    <NavBar />
+<NavBar />
 
-	<section class="page-title">
-	  <div class="container">
-	    <div class="row justify-content-center">
-	      <div class="col-lg-8">
-	          <div class="page-title text-center">\
-	              <h1>>Shopping Cart</h1>
-	          </div>
-	      </div>
-	    </div>
-	  </div>
-	</section>
-
+<section class="page-title">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="page-title text-center">
+                    <h1>Real Estate Website</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="section portfolio-single pt-0">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <img src="../components/images/portfolio/vue-shopping-cart.png" alt="" class="img-fluid rounded">
+                <img src="../components/images/portfolio/demo.png" alt="" class="img-fluid rounded">
+
+                <!-- <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita
+                 sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p> -->
+            </div>
 
             <div class="col-lg-4">
                 <div class="portfolio-sidebar mt-5 mt-lg-0">
@@ -28,28 +31,24 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-content-center">
                                 Created:
-                                <span>15 april 2019</span>
+                                <span>17 june 2020</span>
                             </li>
-                            <li class="d-flex justify-content-between align-content-center">
+                            <!-- <li class="d-flex justify-content-between align-content-center">
                                 Budget:
                                 <span>180$</span>
-                            </li>
+                            </li> -->
 
                             <li class="d-flex justify-content-between align-content-center">
                                 Category:
                                 <span>Portfolio</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
-                                Client:
-                                <span>Themeforest</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-content-center">
                                 Duration:
-                                <span>2 weeks</span>
+                                <span>4 weeks</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
-                                Framework:
-                                <span>Bootstrap4</span>
+                                Language:
+                                <span>Laravel Framework</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
                                 Responsive:
@@ -59,12 +58,8 @@
                                 browser compatiable:
                                 <span>yes</span>
                             </li>
-                            <li class="d-flex justify-content-between align-content-center">
-                                Documentation:
-                                <span>included</span>
-                            </li>
                             <li class="text-right mt-4">
-                               <a href="https://github.com/mpete5993/Vue-Shooping-Cart" target="_blank" class="btn btn-main">Demo</a>
+                               <a href="https://github.com/mpete5993/Real-Estate-" target="_blank" class="btn btn-main">Demo</a>
                             </li>
 
                         </ul>
@@ -72,16 +67,17 @@
 
                     <div class="card bg-gray p-5 mt-4">
                         <h3 class="text-center mb-4">Have any project on mind?</h3>
-                         <a href="#" class="btn btn-solid-border">Contact me</a>
+                        <a href="#" class="btn btn-solid-border">Contact me</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </section>
+<FooterSec />
 </template>
 
 <script setup>
-	import NavBar from '../components/NavBar.vue'
+import NavBar from '../components/NavBar.vue'
+import FooterSec from '../components/FooterSec.vue'
 </script>

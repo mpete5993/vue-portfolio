@@ -6,8 +6,7 @@
 	    <div class="row justify-content-center">
 	      <div class="col-lg-8">
 	          <div class="page-title text-center">
-	             <p>Invoice App</p>
-	              <h1>Ratsaan - Portfolio template</h1>
+	              <h1>Invoice App</h1>
 	          </div>
 	      </div>
 	    </div>
@@ -21,7 +20,7 @@
             <div class="col-lg-8">
                 <img src="../components/images/portfolio/invoice-App.png" alt="" class="img-fluid rounded">
 
-                <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, omnis voluptatum iure expedita sequi obcaecati iste dolores debitis numquam, reprehenderit eum consequuntur cum, quam nesciunt esse tenetur architecto molestiae adipisci.</p>
+                
             </div>
 
             <div class="col-lg-4">
@@ -32,11 +31,7 @@
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-between align-content-center">
                                 Created:
-                                <span>15 april 2019</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-content-center">
-                                Budget:
-                                <span>180$</span>
+                                <span>25 Nov 2023</span>
                             </li>
 
                             <li class="d-flex justify-content-between align-content-center">
@@ -44,16 +39,12 @@
                                 <span>Portfolio</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
-                                Client:
-                                <span>Themeforest</span>
-                            </li>
-                            <li class="d-flex justify-content-between align-content-center">
                                 Duration:
-                                <span>2 weeks</span>
+                                <span>5 weeks</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
                                 Framework:
-                                <span>Bootstrap4</span>
+                                <span>Laravel Framework, API & VueJs</span>
                             </li>
                             <li class="d-flex justify-content-between align-content-center">
                                 Responsive:
@@ -68,7 +59,7 @@
                                 <span>included</span>
                             </li>
                             <li class="text-right mt-4">
-                               <a href="#" class="btn btn-main">Demo</a>
+                               <a href="https://github.com/mpete5993/Invoice-App" target="_blank" class="btn btn-main">Demo</a>
                             </li>
 
                         </ul>
