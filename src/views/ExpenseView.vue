@@ -59,7 +59,7 @@
                                 <span>yes</span>
                             </li>
                             <li class="text-right mt-4">
-                               <a href="https://mpete-expecnse-tracker.netlify.app" target="_blank" class="btn btn-main">Demo</a>
+                               <a href="https://mpete-expense-tracker.netlify.app" target="_blank" class="btn btn-main">Demo</a>
                             </li>
 
                         </ul>
