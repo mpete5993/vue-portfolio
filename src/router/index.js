@@ -10,6 +10,7 @@ import InvoiceView from '../views/InvoiceView.vue'
 import EcommerceView from '../views/EcommerceView.vue'
 import RealEstateView from '../views/RealEstateView.vue'
 import RecipeView from '../views/RecipeView.vue'
+import CaledonView from '../views/CaledonView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,11 @@ const router = createRouter({
       path: '/stock',
       name: 'stock',
       component: StockView
+    },
+    {
+      path: '/caledon',
+      name: 'caledon',
+      component: CaledonView
     },
     {
       path: '/shopping',
